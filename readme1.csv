@@ -1,0 +1,30 @@
+              			Random Forest Regression
+
+
+1. I created the file in jupyter notebook. And the file name is “random_forest_classification.ipynb” and code
+executed under linux system(ubuntu).
+
+2. The library i used
+a. numpy,
+b. pandas,
+c. matplotlib,
+d. sklearn
+
+3. I used python3 in jupyter notebook.
+
+4. Running instruction.
+a. All the library should be preinstalled which i used.
+b. Keep the file “random_forest_classification.ipynb” and “diabetes.csv” at same place.
+c. Open jupyter notebook by writing “jupyter notebook” on terminal.
+d. It is better to keep both file in home directory.
+
+5. I used scikit learn to train our model “RandomForestClassifier”.
+6.Data preprocessing-
+ a. To divide the data into attributes and labels
+
+ b. Once the data is divided into attributes and labels, the final preprocessing step in to devide         data into train and test set. Luckily the model_selection library of the scikit-Learn library.contains the train_test_split method that allows us to seamlessly divide data into trainimg ans test sets.
+
+
+8. Confusion matrix,classification report are the most commonly used metrics for classification tasks. Scikit-Learn’s metrics library contain the classification_report method,which can be readily used to find out the values for these important metrics.
+
+
